@@ -54,6 +54,43 @@ body {
   font-size: 18px;
 }
 
+#info {
+  padding: 30px 200px 100px;
+}
+
+#info h2 {
+  margin-bottom: 30px;
+
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cards > div {
+  width: 120px;
+}
+
+.cards > div > div {
+  width: 120px;
+  height: 120px;
+
+  border: 3px solid var(--secondary);
+  border-radius: 8px;
+}
+
+.cards > div > p {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: 300;
+}
+
 #hero button {
   padding: 0.5em 1.75em;
   border: none;
