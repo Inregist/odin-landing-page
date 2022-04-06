@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 #hero {
   padding: 150px 200px 100px;
 
@@ -98,8 +102,6 @@ body {
 
   background-color: var(--secondary);
   color: var(--white);
-
-  cursor: pointer;
 }
 
 #quote {
