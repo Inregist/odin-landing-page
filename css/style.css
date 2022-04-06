@@ -27,7 +27,7 @@ a {
   text-decoration: inherit;
 }
 
-nav > div {
+#nav > div {
   width: 100%;
   padding: 20px 200px;
   box-sizing: border-box;
@@ -40,13 +40,13 @@ nav > div {
   background-color: var(--primary);
 }
 
-nav p {
+#nav p {
   color: var(--white);
   font-size: 24px;
   font-weight: bold;
 }
 
-nav button {
+#nav button {
   padding: 0 5px;
   border: none;
 
