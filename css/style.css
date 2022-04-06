@@ -119,6 +119,47 @@ body {
   font-weight: 500;
 }
 
+#action {
+  padding: 100px 200px;
+}
+
+#action > div {
+  padding: 60px 80px;
+
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+
+  background-color: var(--secondary);
+  color: var(--white);
+}
+#action > div > *:nth-child(1) {
+  flex: 1 1 70%;
+}
+#action > div > *:nth-child(2) {
+  flex: 1 1 30%;
+}
+
+#action h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#action p {
+  color: var(--grey);
+}
+
+#action button {
+  max-width: 120px;
+
+  border: 2px solid var(--white);
+  border-radius: 8px;
+
+  background-color: var(--secondary);
+  color: var(--white);
+  font-size: 16px;
+}
+
 footer {
   width: 100%;
   height: 4em;
